@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+
+    <header class="header">
+      <a href="#" class="logo"><span>Nawab Chaudry</span></a>
+
+      <ul class="nav-links">
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#experience">Experience</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+      <button class="visit-btn">Visit Github</button>
+    </header>
+    
+    <section class="about" id="about">
+      <div class="about-container">
+        <img src="./imgs/logo.gif" alt="batman gif" />
+
+        <div class="info-box">
+          <div class="text">
+            <h1>Welcome.</h1>
+            <h2>My Name is Nawab Chaudry. <br>
+            I am a <span id="wordie"></span>
+            </h2>
+            <div id="explore"></div>
+          </div>
+
+          <div class="btn-group">
+            <div class="btn">Download CV</div>
+            <div class="btn">Contact</div>
+          </div>
+
+          <div class="socials">
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="experience" id="experience">
+
+      <h2 class="section-title">Experience</h2>
+
+      <div class="experience-info">
+
+        <div class="grid">
+          <div class="grid-card">
+            <i class="fa-solid fa-code"></i>
+            <span>Frontend Development</span>
+            <h3>5 Years</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, iste.</p>
+          </div>
+
+          <div class="grid-card">
+            <i class="fa-solid fa-file-code"></i>
+            <span>Graphic Design</span>
+            <h3>2 Years</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, iste.</p>
+          </div>
+
+          <div class="grid-card">
+            <i class="fa-solid fa-laptop-code"></i>
+            <span>System Design</span>
+            <h3>2 Years</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, iste.</p>
+          </div>
+
+          <div class="grid-card">
+            <i class="fa-solid fa-list-check"></i>
+            <span>Content Manager</span>
+            <h3>1 Year</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, iste.</p>
+          </div>
+        </div>
+
+        <img src="image.jpg" alt="" />
+      </div>
+
+    </section>
+
+    <section class="projects" id="projects">
+
+      <h2 class="section-title">Recent Projects</h2>
+
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <img src="project-1.png" alt="">
+          <h3>Project X</h3>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, ullam?
+          <div class="btn-group">
+            <div class="btn">Live Demo</div>
+            <div class="btn">Github Repo</div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="project-2.png" alt="">
+          <h3>Project Y</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, corrupti.</p>
+          <div class="btn-group">
+            <div class="btn">Live Demo</div>
+            <div class="btn">Github Repo</div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="project-3.jpg" alt="">
+          <h3>Project Z</h3>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, cum.
+          <div class="btn-group">
+            <div class="btn">Live Demo</div>
+            <div class="btn">Github Repo</div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="contact" id="contact">
+      
+      <div class="input-box">
+
+        <h2 class="section-title">Contact Me</h2>
+
+        <div class="input">
+          <input type="text" placeholder="example@email.com">
+          <i class="fa-solid fa-envelope"></i>
+        </div>
+
+        <div class="btn">Submit</div>
+      </div>
+      
+    </section>
+
+    <footer>
+
+      <ul>
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#experience">Experience</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+
+      <p class="copyright">© All Rights Reserved | Jace Smith</p>
+      
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
